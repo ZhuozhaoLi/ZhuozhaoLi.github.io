@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Researches on Zhuozhao Li@UVA</title>
+    <link>http://www.cs.virginia.edu/~zl5uq/research/</link>
+    <description>Recent content in Researches on Zhuozhao Li@UVA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016.8 Zhuozhao Li</copyright>
+    <lastBuildDate>Sat, 20 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.cs.virginia.edu/~zl5uq/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>research</title>
+      <link>http://www.cs.virginia.edu/~zl5uq/research/research/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.virginia.edu/~zl5uq/research/research/</guid>
+      <description>&lt;p&gt;My research interests include Computer Networks, Cloud Computing, Big Data, and Distributed Systems. My current research focuses on analytical frameworks for big-data analytics.&lt;/p&gt;
+
+&lt;ul&gt;
+                    
+                    &lt;li&gt;Computer Networks&lt;/li&gt;
+                    
+                    &lt;li&gt;Cloud Computing&lt;/li&gt;
+                    
+                    &lt;li&gt;Big Data&lt;/li&gt;
+                    
+                    &lt;li&gt;Resource Management&lt;/li&gt;
+                    
+                    &lt;li&gt;Distributed Systems&lt;/li&gt;
+                    
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

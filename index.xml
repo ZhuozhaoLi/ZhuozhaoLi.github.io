@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhuozhao Li@UVA</title>
+    <link>http://www.cs.virginia.edu/~zl5uq/</link>
+    <description>Recent content on Zhuozhao Li@UVA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016.8 Zhuozhao Li</copyright>
+    <lastBuildDate>Sat, 20 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.cs.virginia.edu/~zl5uq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://www.cs.virginia.edu/~zl5uq/home/about/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.virginia.edu/~zl5uq/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+
+&lt;p&gt;I am currently a Ph.D. student in the &lt;a href=&#34;http://www.cs.virginia.edu/&#34;&gt;Department of Computer Science&lt;/a&gt; at the &lt;a href=&#34;http://www.virginia.edu/&#34;&gt;University of Virginia&lt;/a&gt;.
+My advisor is &lt;a href=&#34;http://www.cs.virginia.edu/people/faculty/shen.html&#34;&gt;Professor Haiying Shen&lt;/a&gt;.
+From 2012 to 2016, I was a Graduate Research Assistant in the &lt;a href=&#34;http://www.clemson.edu/cecas/departments/ece/&#34;&gt;Department of Electrical and Computer Engineering&lt;/a&gt; at the &lt;a href=&#34;http://www.clemson.edu/&#34;&gt;Clemson University&lt;/a&gt;, USA.
+I received the B.E. degree in &lt;a href=&#34;http://opt.zju.edu.cn/english/&#34;&gt;Optical Engineering&lt;/a&gt; from &lt;a href=&#34;http://www.zju.edu.cn/english/&#34;&gt;Zhejiang University&lt;/a&gt;, China in 2010,
+and the M.S. degree in &lt;a href=&#34;http://ee.usc.edu/&#34;&gt;Electrical Engineering&lt;/a&gt; from &lt;a href=&#34;http://www.usc.edu/&#34;&gt;University of Southern California&lt;/a&gt;, USA in 2012.&lt;/p&gt;
+
+&lt;!-- My research interests include Computer Networks, Cloud Computing, Big Data, and Distributed Systems. My current research focuses on analytical frameworks for big-data analytics.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>http://www.cs.virginia.edu/~zl5uq/home/research/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.virginia.edu/~zl5uq/home/research/</guid>
+      <description>&lt;p&gt;My research interests include Computer Networks, Cloud Computing, Big Data, and Distributed Systems. My current research focuses on analytical frameworks for big-data analytics.&lt;/p&gt;
+
+&lt;ul&gt;
+                    
+                    &lt;li&gt;Computer Networks&lt;/li&gt;
+                    
+                    &lt;li&gt;Cloud Computing&lt;/li&gt;
+                    
+                    &lt;li&gt;Big Data&lt;/li&gt;
+                    
+                    &lt;li&gt;Resource Management&lt;/li&gt;
+                    
+                    &lt;li&gt;Distributed Systems&lt;/li&gt;
+                    
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>publications</title>
+      <link>http://www.cs.virginia.edu/~zl5uq/home/publication/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.virginia.edu/~zl5uq/home/publication/</guid>
+      <description>&lt;h3&gt;Journals:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[2] &lt;b&gt;Z. Li&lt;/b&gt;, H. Shen, W. Ligon and J. Denton, An Exploration of Designing a Hybrid Scale-Up/Out
+Hadoop Architecture Based on Performance Measurements, IEEE Transactions on Parallel and
+Distributed Systems (&lt;b&gt;TPDS&lt;/b&gt;), Accepted on May 23, 2016&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;paper/journal/hybrid-TPDS-journal.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[1] H. Shen and &lt;b&gt;Z. Li&lt;/b&gt;, New Bandwidth Sharing and Pricing Policies to Achieve a Win-Win Situation
+for Cloud Provider and Tenants, IEEE Transactions on Parallel and Distributed Systems (&lt;b&gt;TPDS&lt;/b&gt;),
+Issue: 99, pp: 1, 2015&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;paper/journal/winwin-TPDS-journal.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;International Conferences:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[7] H. Shen, L. Yu, L. Chen and &lt;b&gt;Z. Li&lt;/b&gt;, Goodbye to Fixed Bandwidth Reservation: Job Scheduling with Elastic Bandwidth Reservation in Clouds,
+In Proc. of the 8th IEEE International Conference on Cloud Computing Technology and Science (&lt;b&gt;CloudCom&lt;/b&gt;), December 12-15, 2016, Luxembourg [acceptance rate: &lt;sup&gt;50&lt;/sup&gt;&amp;frasl;&lt;sub&gt;193&lt;/sub&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[6] A. Ghavami, &lt;b&gt;Z. Li&lt;/b&gt; and H. Shen, Game Theory-Based Nonlinear Bandwidth Pricing for Congestion Control in Cloud Networks,
+In Proc. of the 8th IEEE International Conference on Cloud Computing Technology and Science (&lt;b&gt;CloudCom&lt;/b&gt;), December 12-15, 2016, Luxembourg [acceptance rate: &lt;sup&gt;50&lt;/sup&gt;&amp;frasl;&lt;sub&gt;193&lt;/sub&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[5] &lt;b&gt;Z. Li&lt;/b&gt;, H. Shen and K. Chen, Learning Network Graph of SIR Epidemic Cascades Using Minimal
+Hitting Set based Approach, In Proc. of the 25th International Conference on Computer Communications and Networks (&lt;b&gt;ICCCN&lt;/b&gt;), 2016&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[4] A. Ghavami, &lt;b&gt;Z. Li&lt;/b&gt;, and H. Shen, On-Demand Bandwidth Pricing for Congestion Control in
+Core Switches in Cloud Networks, In Proc. of the 9th IEEE International Conference on Cloud
+Computing (&lt;b&gt;CLOUD&lt;/b&gt;) short paper, 2016&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[3] &lt;b&gt;Z. Li&lt;/b&gt;, H. Shen, W. Ligon and J. Denton, Performance Measurement on Scale-up and Scale-out
+Hadoop with Remote and Local File Systems, In Proc. of the 9th IEEE International Conference
+on Cloud Computing (&lt;b&gt;CLOUD&lt;/b&gt;), 2016 [acceptance rate: 16.7%]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[2] &lt;b&gt;Z. Li&lt;/b&gt; and H. Shen, Designing A Hybrid Scale-Up/Out Hadoop Architecture Based on Performance Measurements for High Application Performance,
+In Proc. of IEEE International Conference on Parallel Processing (&lt;b&gt;ICPP&lt;/b&gt;), 2015 [acceptance rate: 32.5%]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;paper/conference/hybrid-ICPP.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[1] H. Shen and &lt;b&gt;Z. Li&lt;/b&gt;, New Bandwidth Sharing and Pricing Policies to Achieve A Win-Win Situation
+for Cloud Provider and Tenants, In Proc. of IEEE Conference on Computer Communications
+(&lt;b&gt;INFOCOM&lt;/b&gt;), 2014 [acceptance rate: 19.4%]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;paper/conference/winwin-INFOCOM.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>http://www.cs.virginia.edu/~zl5uq/research/research/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.virginia.edu/~zl5uq/research/research/</guid>
+      <description>&lt;p&gt;My research interests include Computer Networks, Cloud Computing, Big Data, and Distributed Systems. My current research focuses on analytical frameworks for big-data analytics.&lt;/p&gt;
+
+&lt;ul&gt;
+                    
+                    &lt;li&gt;Computer Networks&lt;/li&gt;
+                    
+                    &lt;li&gt;Cloud Computing&lt;/li&gt;
+                    
+                    &lt;li&gt;Big Data&lt;/li&gt;
+                    
+                    &lt;li&gt;Resource Management&lt;/li&gt;
+                    
+                    &lt;li&gt;Distributed Systems&lt;/li&gt;
+                    
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>services</title>
+      <link>http://www.cs.virginia.edu/~zl5uq/home/services/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.cs.virginia.edu/~zl5uq/home/services/</guid>
+      <description>&lt;p&gt;External Reviewer (Conferences):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IEEE International Conference on Computer Communications (INFOCOM), 2016&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Computer Communications and Networks (ICCCN), 2015&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Mobile Ad-hoc and Sensor Systems (MASS), 2015&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Computer Communications (INFOCOM), 2015&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Mobile Ad-hoc and Sensor Systems (MASS), 2014&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Network Protocols (ICNP), 2014&lt;/li&gt;
+&lt;li&gt;IEEE International Conference on Computer Communications (INFOCOM), 2014&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;External Reviewer (Journals):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IEEE Transactions on Networking (ToN), 2016&lt;/li&gt;
+&lt;li&gt;ACM Transaction on Cyber-Physical Systems (TCPS), 2016&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Awards:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IEEE ICPP student Travel Grant Award, awarded by NSF, 2015&lt;/li&gt;
+&lt;li&gt;Scholarship, awarded by Zhejiang University&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
