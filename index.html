@@ -190,32 +190,6 @@ and the M.S. degree in <a href="http://ee.usc.edu/">Electrical Engineering</a> f
     </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <section id="research" class="home-section">
     <div class="container">
         <div class="row">
@@ -248,7 +222,100 @@ and the M.S. degree in <a href="http://ee.usc.edu/">Electrical Engineering</a> f
 </section>
 
 
+<script src="js/parser.js"></script>
 
+<script>
+
+function get_format(data, field, pre, post){
+    if (field in data && data[field] != ""){
+        return pre + data[field] + post;
+    }
+    return "";
+}
+
+function get_authors(authors){
+    var author_string = "";
+    for (var i = 0, len = authors.length; i < len; i++) {
+        author_string += authors[i].trim();
+        if (i < authors.length - 2){
+                author_string += ', ';
+        } else if (i == authors.length - 2){
+                author_string += ' and ';
+        }
+    } 
+    if (author_string.endsWith(".")){
+      author_string = author_string.substring(0, author_string.length - 1);
+    }
+    return author_string;
+
+}
+
+function format_bib(data){
+    var formated = $("<p>");
+ 
+    var author_string = get_authors(data["Fields"]["author"].split("and"));
+    
+    formated.append($("<span>", {"text" : author_string + ". ", "class" : "authors"}));
+    formated.append($("</br>"));
+    
+    var link = $("<span>");
+    if ("note" in data["Fields"]){ 
+        link = $("<a>", {"href" : "papers/" + data["Fields"]["note"]});
+        var pdf = $("<img>", {"src": "/img/pdficon.png"});
+        link.append(pdf)
+    }
+    var title = $("<span>", {"text" : "\"" + data["Fields"]["title"] + ".\" "})
+    link.append(title).append($("</br>"));
+
+    formated.append(link);
+    
+    var journal_conference = ""
+    if (data["EntryType"] == "article"){
+        journal_conference += data["Fields"]["journal"];
+    } else if (data["EntryType"] == "inproceedings"){
+        journal_conference += data["Fields"]["booktitle"] ;
+    } else if (data["EntryType"] == "incollection"){
+        journal_conference += data["Fields"]["booktitle"];
+    }
+
+    
+    journal_conference += get_format(data["Fields"], "volume", ". ", "");
+    journal_conference += get_format(data["Fields"], "number", "(", ")");
+    journal_conference += get_format(data["Fields"], "pages", ". pp ", "");
+    journal_conference += get_format(data["Fields"], "year", ". ", ".");
+
+    formated.append($("<span>", {"text" : journal_conference}));
+    formated.append($("<br>"));
+
+    if ("doi" in data["Fields"] && data["Fields"]["doi"] != ""){
+        formated.append($("<span>", {"text" : "doi: "}));
+        formated.append($("<a>", {"href" : "https://doi.org/" + data["Fields"]["doi"], "text" :  data["Fields"]["doi"]}));
+    }
+
+    return formated; 
+}
+
+$( document ).ready(function() {
+
+   var display_bib = function(data) {
+       var paper = $("<div>", {"id" : data['EntryKey'], "class": "row ref-holder"});
+       var li = $("<li>");
+       var ref_text =  format_bib(data);
+       li.append(ref_text);
+       paper.append(li);
+       $("#publist").append(paper)
+   }
+
+   $.get( "papers/zhuozhao.bib", function( data ) {
+       var parser = BibtexParser(display_bib);
+       parser.parse(data);
+   });
+
+
+
+});
+
+</script>
 
 <section id="publications" class="home-section">
     <div class="container">
@@ -258,92 +325,10 @@ and the M.S. degree in <a href="http://ee.usc.edu/">Electrical Engineering</a> f
                 
             </div>
             <div class="col-xs-12 col-md-8">
-                <h3>Journals:</h3>
 
-<ul>
+                <ol id='publist'>
+                </ol>
 
-<li><p>[4] <b>Z. Li</b>, H. Chandler and H. Shen, Analysis of Knowledge Sharing Activities on a Social
-Network Incorporated Discussion Forum: a Case Study of DISboards, IEEE Transactions
-on Big Data (<b>TBD</b>), Accepted on August, 2017</p>
-
-<li><p>[3] <b>Z. Li</b> and H. Shen, Measuring Scale-up and Scale-out Hadoop with Remote and Local File
-Systems and Selecting the Best Platform, IEEE Transactions on Parallel and Distributed
-Systems (<b>TPDS</b>), Vol. 28, No. 11, pp: 3201 - 3214, 2017</p>
-
-<li><p>[2] <b>Z. Li</b>, H. Shen, W. Ligon and J. Denton, An Exploration of Designing a Hybrid Scale-Up/Out
-Hadoop Architecture Based on Performance Measurements, IEEE Transactions on Parallel and
-Distributed Systems (<b>TPDS</b>), Vol. 28, No. 2, pp: 386 - 400, 2017</p>
-
-<p><a href="paper/journal/hybrid-TPDS-journal.pdf">Paper</a></p></li>
-
-<li><p>[1] H. Shen and <b>Z. Li</b>, New Bandwidth Sharing and Pricing Policies to Achieve a Win-Win Situation
-for Cloud Provider and Tenants, IEEE Transactions on Parallel and Distributed Systems (<b>TPDS</b>),
-Vol. 27, No. 9, pp: 2682 - 2697, 2016</p>
-
-<p><a href="paper/journal/winwin-TPDS-journal.pdf">Paper</a></p></li>
-</ul>
-
-<h3>International Conferences:</h3>
-
-<ul>
-
-<li><p>[13] H. Wang, H. Shen and <b>Z. Li</b>, Approaches for Resilience Against Cascading Failures in
-Cloud Datacenters, In Proceedings of 38th IEEE International Conference on Distributed
-Computing Systems (<b>ICDCS</b>), July 2-5, 2018, Vienna, Austria [acceptance rate: 20%]</p></li>
-
-<li><p>[12] <b>Z. Li</b>, H. Shen and C. Miles, PageRankVM: A PageRank Based Algorithm with Anti-
-Collocation Constraints for Virtual Machine Placement in Cloud Datacenters, In Proceed-
-ings of 38th IEEE International Conference on Distributed Computing Systems (<b>ICDCS</b>),
-July 2-5, 2018, Vienna, Austria [acceptance rate: 20%]</p></li>
-
-<li><p>[11] <b>Z. Li</b>, H. Shen, and A. Sarker, A Network-aware Scheduler in Data-parallel Clusters
-for High Performance, In Proc. of 18th IEEE/ACM International Symposium on Cluster,
-Cloud and Grid Computing (<b>CCGrid</b>), May 1-4, 2018, Washington, DC, USA [acceptance
-rate: 20.8%]</p></li>
-
-<li><p>[10] L. Yan, H. Shen, <b>Z. Li</b>, A. Sarker, J. A. Stankovic, C. Qiu, J. Zhao and C. Xu, Employing Opportunistic Charging for Electric Taxicabs to Reduce Idle Time, In Proc. of ACM International Joint Conference on Pervasive and Ubiquitous Computing (<b>UbiComp</b>), Oct 8-12, 2018, Singapore, Singapore 
-
-<li><p>[9] A. Sarker, <b>Z. Li</b>, W. Kolodzey and H. Shen, Opportunistic Energy Sharing Between Power Grid And Electric Vehicles: A Game Theory-based Nonlinear Pricing Policy, In Proc. of the 37th International Conference on Distributed Computing Systems (<b>ICDCS</b>), June 05 - June 08, 2017, Atlanta, GA, USA</p></li>
-
-<p><a href="paper/conference/Opportunistic-ICDCS2017.pdf">Paper</a></p></li>
-
-<li><p>[8] <b>Z. Li</b>, H. Shen, J. Denton and W. Ligon, Comparing Application Performance on HPC-based Hadoop Platforms with Local Storage and Dedicated Storage, 
-In Proc. of the 2016 IEEE International Conference on Big Data (<b>IEEE BigData</b>), December 5-8, 2016, Washington D.C., USA [acceptance rate: 18.68%]</p></li>
-
-<li><p>[7] H. Shen, L. Yu, L. Chen and <b>Z. Li</b>, Goodbye to Fixed Bandwidth Reservation: Job Scheduling with Elastic Bandwidth Reservation in Clouds,
-In Proc. of the 8th IEEE International Conference on Cloud Computing Technology and Science (<b>CloudCom</b>), December 12-15, 2016, Luxembourg [acceptance rate: <sup>50</sup>&frasl;<sub>193</sub>]</p></li>
-
-<li><p>[6] A. Ghavami, <b>Z. Li</b> and H. Shen, Game Theory-Based Nonlinear Bandwidth Pricing for Congestion Control in Cloud Networks,
-In Proc. of the 8th IEEE International Conference on Cloud Computing Technology and Science (<b>CloudCom</b>), December 12-15, 2016, Luxembourg [acceptance rate: <sup>50</sup>&frasl;<sub>193</sub>]</p></li>
-
-<li><p>[5] <b>Z. Li</b>, H. Shen and K. Chen, Learning Network Graph of SIR Epidemic Cascades Using Minimal
-Hitting Set based Approach, In Proc. of the 25th International Conference on Computer Communications and Networks (<b>ICCCN</b>), 2016</p></li>
-
-<li><p>[4] A. Ghavami, <b>Z. Li</b>, and H. Shen, On-Demand Bandwidth Pricing for Congestion Control in
-Core Switches in Cloud Networks, In Proc. of the 9th IEEE International Conference on Cloud
-Computing (<b>CLOUD</b>) short paper, 2016</p></li>
-
-<li><p>[3] <b>Z. Li</b>, H. Shen, W. Ligon and J. Denton, Performance Measurement on Scale-up and Scale-out
-Hadoop with Remote and Local File Systems, In Proc. of the 9th IEEE International Conference
-on Cloud Computing (<b>CLOUD</b>), 2016 [acceptance rate: 16.7%]</p></li>
-
-<li><p>[2] <b>Z. Li</b> and H. Shen, Designing A Hybrid Scale-Up/Out Hadoop Architecture Based on Performance Measurements for High Application Performance,
-In Proc. of IEEE International Conference on Parallel Processing (<b>ICPP</b>), 2015 [acceptance rate: 32.5%]</p>
-
-<p><a href="paper/conference/hybrid-ICPP.pdf">Paper</a></p></li>
-
-<li><p>[1] H. Shen and <b>Z. Li</b>, New Bandwidth Sharing and Pricing Policies to Achieve A Win-Win Situation
-for Cloud Provider and Tenants, In Proc. of IEEE Conference on Computer Communications
-(<b>INFOCOM</b>), 2014 [acceptance rate: 19.4%]</p>
-
-<p><a href="paper/conference/winwin-INFOCOM.pdf">Paper</a></p></li>
-</ul>
-
-<h3>Poster:</h3>
-<ul>
-<li><p>[1] Z. Li and H. Shen, Job Scheduling for Data-Parallel Frameworks with Hybrid Electrical/Optical Datacenter Networks, 
-In ACM Symposium on Cloud Computing (<b>SoCC</b>) Poster, 2017
-</ul>
             </div>
         </div>
     </div>
