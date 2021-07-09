@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 
 
-icon: 🔥 # the emoji used as the favicon
+icon: /assets/img/uchicago-icon.png # the emoji used as the favicon
 url:  zhuozhaoli.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: True # set to true if you want to display last updated in the footer
