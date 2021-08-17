@@ -29,4 +29,4 @@ from [University of Southern California](http://www.usc.edu/){:target="\_blank"}
 My research interests include High Performance Computing, Distributed System, Cloud/Edge Computing, and Internet of Things.
 Please refer to my [CV](assets/CV-ZhuozhaoLi.pdf){:target="\_blank"} for more information.
 
-I am looking for self-motivated postdocs. If you are interested in doing HPC and distributed system research with me, please [email](mailto:lizz@sustech.edu.cn) me your CV and a brief introduction of your research interests.
+I am looking for self-motivated postdocs. If you are interested in doing research about HPC, distributed system, and cloud computing with me, please [email](mailto:lizz@sustech.edu.cn) me your CV and a brief introduction of your research interests.
