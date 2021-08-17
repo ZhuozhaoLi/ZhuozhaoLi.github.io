@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral Scholar, University of Chicago
+description: Assistant Professor, Southern University of Science and Technology
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Room 312</p>
-    <p>John Crerar Library</p>
-    <p>Department of Computer Science</p>
-    <p>University of Chicago</p>
-    <p>Chicago, IL, USA</p>
-
+    <p>Office 516, South Tower, CoE Building</p>
+    <p>Department of Computer Science and Engineering</p>
+    <p>Southern University of Science and Technology</p>
+    <p>1088 Xueyuan Avenue, Nanshan District</p>
+    <p>Shenzhen 518055, China</p>
+    
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
