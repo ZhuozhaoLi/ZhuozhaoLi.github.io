@@ -2,7 +2,7 @@
 layout: page
 permalink: /openings/
 title: Openings
-description: 
+description: Lab openings 
 nav: true
 ---
 
