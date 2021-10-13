@@ -2,16 +2,25 @@
 layout: page
 permalink: /openings/
 title: Openings
-description: I am looking for self-motivated students and postdocs. If you are interested in doing research about HPC, distributed system, and cloud computing with me, please [email](mailto:lizz@sustech.edu.cn) me your CV and a brief introduction of your research interests. 
+description: Multiple positions available in SUSTech High Performance Laboratory (HPC Lab).
 nav: true
 ---
 
-### 招收2022级南方科技大学与香港理工大学联合培养博士生
+I am looking for self-motivated students and postdocs. If you are interested in doing research about HPC, distributed system, and cloud computing with me, please [email](mailto:lizz@sustech.edu.cn) me your CV and a brief introduction of your research interests.
+
+[Collaborative PhD program （香港理工大学联培）](#collaborative-phd)
+[Postdoc](#postdoc)
+[Master and PhD students](#ms-phd)
+[Research assistants](#ra)
+[Visiting students](#visiting)
+
+
+### 招收2022级南方科技大学与香港理工大学联合培养博士生 {#collaborative-phd}
 
 南方科技大学高性能计算实验室招收与香港理工大学联合培养的博士研究生1名，研究领域为分布式系统，云/边缘计算，大数据，高性能计算。双导师指导，颁发香港理工大学的博士学位。
 
 
-##### 联培导师
+联培导师
 
 - 南方科技大学导师：李卓钊 （Zhuozhao Li）
 
@@ -23,12 +32,12 @@ nav: true
 更多信息可见 [个人主页](https://web.comp.polyu.edu.hk/cssongguo/)
 
 
-##### 奖助学金
+奖助学金
 
 南科大为以上联培项目提供最高4年的奖助学金，其中在境外学习期间，南科大按合作大学博士生标准提供奖助学金，部分项目另资助在境外期间的学费。在南科大学习期间的奖助学金标准，按南科大当年奖学金政策执行。
 
 
-##### 申请要求
+申请要求
 
 - 品格端正，踏实做事，乐于沟通
 
@@ -41,7 +50,7 @@ nav: true
 - 注：申请需要托福/雅思成绩
 
 
-##### 申请步骤
+申请步骤
 
 - 截止时间
 
@@ -54,7 +63,7 @@ nav: true
     - 有意愿申请者，请尽快提交材料并邮件联系lizz@sustech.edu.cn。
 
 
-###博士后招聘
+### 博士后招聘 {#postdoc}
 
 - 招聘条件：
 
@@ -87,7 +96,7 @@ nav: true
     - 辅助本科生及研究生科研训练。
 
 
-### 招收南科大培养的的硕士研究生和博士研究生
+### 招收南科大培养的的硕士研究生和博士研究生 {#ms-phd}
 
 南方科技大学为硕士、博士提供奖助学金。
 
@@ -103,7 +112,7 @@ nav: true
  	- 具有高性能计算、分布式系统、云计算等研究背景者优先考虑。
 
 
-### 研究助理招聘
+### 研究助理招聘 {#ra}
 
 - 招聘条件：
 
@@ -126,7 +135,7 @@ nav: true
 	- 辅助课题组日常管理工作。
 
 
-### 访问学生招聘
+### 访问学生招聘 {#visiting}
 
 - 招聘条件：
 
