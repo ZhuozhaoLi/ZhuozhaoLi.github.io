@@ -9,9 +9,13 @@ nav: true
 I am looking for self-motivated students and postdocs. If you are interested in doing research about HPC, distributed system, and cloud computing with me, please [email](mailto:lizz@sustech.edu.cn) me your CV and a brief introduction of your research interests.
 
 [Collaborative PhD program （香港理工大学联培）](#collaborative-phd)
+
 [Postdoc](#postdoc)
+
 [Master and PhD students](#ms-phd)
+
 [Research assistants](#ra)
+
 [Visiting students](#visiting)
 
 
@@ -22,14 +26,10 @@ I am looking for self-motivated students and postdocs. If you are interested in 
 
 联培导师
 
-- 南方科技大学导师：李卓钊 （Zhuozhao Li）
-
-更多信息可见 [个人主页](https://zhuozhaoli.github.io/)
+- 南方科技大学导师：李卓钊 （Zhuozhao Li），更多信息见导师[个人主页](https://zhuozhaoli.github.io/)
 
 
-- 香港理工大学导师：郭嵩 （Song Guo）
-
-更多信息可见 [个人主页](https://web.comp.polyu.edu.hk/cssongguo/)
+- 香港理工大学导师：郭嵩 （Song Guo），更多信息见导师[个人主页](https://web.comp.polyu.edu.hk/cssongguo/)
 
 
 奖助学金
