@@ -27,11 +27,9 @@ I am looking for self-motivated students and postdocs. If you are interested in 
 	- 南方科技大学导师：李卓钊 （Zhuozhao Li），更多信息见导师[个人主页](https://zhuozhaoli.github.io/)
 	- 香港理工大学导师：郭嵩 （Song Guo），更多信息见导师[个人主页](https://web.comp.polyu.edu.hk/cssongguo/)
 
-
 - 奖助学金
 
 	- 南科大为以上联培项目提供最高4年的奖助学金，其中在境外学习期间，南科大按合作大学博士生标准提供奖助学金，部分项目另资助在境外期间的学费。在南科大学习期间的奖助学金标准，按南科大当年奖学金政策执行。
-
 
 - 申请要求
 	- 品格端正，踏实做事，乐于沟通
@@ -80,13 +78,13 @@ I am looking for self-motivated students and postdocs. If you are interested in 
     - 辅助本科生及研究生科研训练。
 
 
-### 招收南科大培养的的硕士研究生和博士研究生 {#ms-phd}
+### 招收南科大培养硕士研究生和博士研究生 {#ms-phd}
 
 南方科技大学为硕士、博士提供奖助学金。
 
 - 申请要求：
-	- 对科学研究具有兴趣，工作认真负责，科学研究态度严谨,具有良好的团队合作精神；
-	- 具有较好英文文献阅读、写作能力；
+	- 对科学研究具有兴趣，工作认真负责，科学研究态度严谨，具有良好的团队合作精神；
+	- 具有较好的英文文献阅读、写作能力；
 	- 品格端正，踏实做事，乐于沟通；
 	- strongly self-motivated，热爱研究；
 	- 编程基础扎实；
