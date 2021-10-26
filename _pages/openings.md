@@ -34,7 +34,7 @@ I am looking for self-motivated students and postdocs. If you are interested in 
 	- 品格端正，踏实做事，乐于沟通
 	- strongly self-motivated，热爱研究
 	- 编程基础扎实
-	- 其他详细招生信息及申请条件请见[南方科技大学研究生院官方通知](https://gs.sustech.edu.cn/boshijiangwailianpei202/1983)： https://gs.sustech.edu.cn/boshijiangwailianpei202/1983
+	- 其他详细招生信息及申请条件请见[南方科技大学研究生院官方通知](https://gs.sustech.edu.cn/boshijiangwailianpei2022/1983)： https://gs.sustech.edu.cn/boshijiangwailianpei2022/1983
 	- **注：申请需要托福/雅思成绩**
 
 
