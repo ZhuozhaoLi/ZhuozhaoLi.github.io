@@ -26,7 +26,7 @@ from [Zhejiang University](http://www.zju.edu.cn/english/){:target="\_blank"}, C
 and the M.S. degree <!--- in [Electrical Engineering](http://ee.usc.edu/){:target="\_blank"} --->
 from [University of Southern California](http://www.usc.edu/){:target="\_blank"}, USA in 2012.
 
-My research interests include High Performance Computing, Distributed System, Cloud/Edge Computing, and Internet of Things.
+My research interests include High Performance Computing, Distributed Systems, Cloud/Edge Computing, and Internet of Things.
 Please refer to my [CV](assets/CV-ZhuozhaoLi.pdf){:target="\_blank"} for more information.
 
-**I am looking for self-motivated students and postdocs. If you are interested in doing research about HPC, distributed system, and cloud computing with me, please refer to the [openings](https://zhuozhaoli.github.io/openings/) for more details.**
+**I am looking for self-motivated students, postdocs, and research assistant professors. If you are interested in doing research about HPC, distributed systems, and cloud computing with me, please refer to the [openings](https://zhuozhaoli.github.io/openings/) for more details.**
