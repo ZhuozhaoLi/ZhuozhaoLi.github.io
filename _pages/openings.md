@@ -6,7 +6,7 @@ description: Multiple positions are available in SUSTech High Performance Comput
 nav: true
 ---
 
-I am looking for self-motivated students, postdocs, and RAPs. If you are interested in doing research about HPC, distributed system, and cloud computing with me, please [email](mailto:lizz@sustech.edu.cn) me your CV and a brief introduction of your research interests.
+I am looking for self-motivated students, postdocs, and Research Assistant Professors. If you are interested in doing research about HPC, distributed system, and cloud computing with me, please [email](mailto:lizz@sustech.edu.cn) me your CV and a brief introduction of your research interests.
 
 [Collaborative PhD program （香港理工大学联培）](#collaborative-phd)
 
