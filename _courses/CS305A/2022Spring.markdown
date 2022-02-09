@@ -56,7 +56,7 @@ You MUST sign the commitment letter and submit on the Sakai/Blackboard system.
 - Unless some special situations (e.g., medical leave) which will be reviewed by all the instructors.
 - The following excuses will NOT be approved for late submissions: computer crashes, disk crashes, accidental file deletions, lab computer unavailability, and the like. There will be no reply for this sort of late assignment submission requests.
 
-##### **Schedule (Tentative)** {#schedule}
+##### **[Schedule](#schedule) (Tentative)** {#schedule}
 
 <style>
 td, th {
