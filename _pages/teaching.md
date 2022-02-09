@@ -12,4 +12,4 @@ Courses at SUSTech
 	- 2021 Fall
 
 - CS305A Computer Networks
-	- [2022 Spring](/assets/courses/CS305A/2022Spring.markdown)
+	- [2022 Spring](/courses/CS305A/2022Spring)
