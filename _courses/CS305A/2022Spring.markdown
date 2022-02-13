@@ -32,7 +32,7 @@ There will be three Q&A homework, two programming assignments, one project, one 
 
 ##### **Grading Policy**
 
-The grading policy may subject to minor changes depending on the overall performance.
+<!--- The grading policy may subject to minor changes depending on the overall performance.-->
 
 - Homework and programming assignments, 15%
 
