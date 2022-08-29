@@ -9,7 +9,7 @@ description: "2022 Fall Syllabus"
 
 [Zhuozhao Li](https://zhuozhaoli.github.io/), 李卓钊
 - Office: RM 516, South Tower, CoE Building (工学院南楼516)
-- Office hour: Friday 4:00-5:00PM, or email to schedule an appointment.
+- Office hour: Friday 4:00-5:00PM, or [email](mailto:lizz@sustech.edu.cn) to schedule an appointment.
 
 Yanhong Jia, 贾艳红 (Lab)
 
@@ -28,19 +28,20 @@ On completion of this course, the students should be able to:
 
 ##### **Course Materials**
 
-- All the lecture and lab slides
+- All the lecture and lab slides.
 
 - Textbook (optional): P. Deitel, H. Deitel, Java: How to Program (11th edition), Prentice-Hall, 2017. 
 <img style="float: right;" src="/assets/img/java.jpg" alt="drawing" width="150"/>
 
-- Other references: Y. Daniel Liang. Introduction to Java Programming, 10e, Pearson, Prentice Hall, 2015.
-
-Allen B. Downey and Chris Mayfield. Think Java, How to Think Like a Computer Scientist, O'Reilly, 2016.
+- Other references (optional): 
+  - Y. Daniel Liang. Introduction to Java Programming, 10e, Pearson, Prentice Hall, 2015.
+  - Allen B. Downey and Chris Mayfield. Think Java, How to Think Like a Computer Scientist, O'Reilly, 2016.
 
 
 ##### **Course Workloads**
 
 There will be five programming assignments, a project, and a final examination. 
+
 
 ##### **Grading Policy**
 
@@ -56,11 +57,13 @@ There will be five programming assignments, a project, and a final examination.
 
 - Final exam, 40%
 
-##### <span style="color:red">**Academic Integrity/Academic Dishonesty**</span>
+
+##### **<span style="color:red;">Academic Integrity/Academic Dishonesty</span>**
 
 I expect students to be honest and not cheat on their assignments, project, or exams. 
 Please refer to the [plagiarism policy](/assets/Plagiarism_Policy.pdf) (**IMPORTANT!!! Please READ carefully!!!**) of CSE department for more details.
 You MUST sign the commitment letter and submit on the Sakai/Blackboard system.
+
 
 ##### **Course Policies**
 
