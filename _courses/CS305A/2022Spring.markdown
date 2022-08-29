@@ -21,7 +21,7 @@ Using the Internet as a vehicle, this course introduces the underlying concepts 
 ##### **Course Materials**
 
 - Textbook: Computer Networking: A Top Down Approach, J. Kurose & K. Ross, Pearson, 7th Edition, 2017
-<img style="float: right;" src="/assets/img/textbook.jpg" alt="drawing" width="150"/>
+<img style="float: right;" src="/assets/img/networking.jpg" alt="drawing" width="150"/>
 
 - All the lecture and lab slides
 
