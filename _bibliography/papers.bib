@@ -1,6 +1,57 @@
 ---
 ---
 
+@ARTICLE{li2022mdos,
+  author={Li, Zhuozhao and Sen, Tanmoy and Shen, Haiying and Chuah, Mooi Choo},
+  journal={IEEE/ACM Transactions on Networking}, 
+  title={A Study on the Impact of Memory DoS Attacks on Cloud Applications and Exploring Real-Time Detection Schemes}, 
+  year={2022},
+  volume={30},
+  number={4},
+  pages={1644-1658},
+  doi={10.1109/TNET.2022.3144895},
+  abbr = {TON},
+  bibtex_show = {true},
+  url = {https://ieeexplore.ieee.org/abstract/document/9708719},
+  pdf = {TON-li-mdos-2022.pdf},
+  selected = {false},
+  abstract={Even though memory denial-of-service attacks can cause severe performance degradations on co-located virtual machines, a previous detection scheme against such attacks cannot accurately detect the attacks and also generates high detection delay and high performance overhead since it assumes that cache-related statistics of an application follow the same probability distribution at all times, which may not be true for all types of applications. In this paper, we present the experimental results showing the impacts of memory DoS attacks on different types of cloud-based applications. Based on these results, we propose two lightweight and responsive Statistical based Detection Schemes (SDS/B and SDS/P) that can detect such attacks accurately. SDS/B constructs a profile of normal range of cache-related statistics for all applications and use statistical methods to infer an attack when the real-time collected statistics exceed this normal range, while SDS/P exploits the increased periods of access patterns for periodic applications to infer an attack. Upon SDS, we further leverage deep neural network (DNN) techniques to design a DNN-based detection scheme that is general to various types of applications and more robust to adaptive attack scenarios. Our evaluation results show that SDS/B, SDS/P and DNN outperform the state-of-the-art detection scheme, e.g., with 65% higher specificity, 40% shorter detection delay, and 7% less performance overhead. We also discuss how to use SDS and DNN-based detection schemes under different situations.}
+}
+
+@ARTICLE{li2022coscheduler,
+  author={Li, Zhuozhao and Shen, Haiying},
+  journal={IEEE/ACM Transactions on Networking}, 
+  title={Co-Scheduler: A Coflow-Aware Data-Parallel Job Scheduler in Hybrid Electrical/Optical Datacenter Networks}, 
+  year={2022},
+  volume={30},
+  number={4},
+  pages={1599-1612},
+  doi={10.1109/TNET.2022.3143232}
+  abbr = {TON},
+  bibtex_show = {true},
+  url = {https://ieeexplore.ieee.org/abstract/document/9695973},
+  pdf = {TON-li-coscheduler-2022.pdf},
+  selected = {true},
+  abstract={To support higher demand for datacenter networks, networking researchers have proposed hybrid electrical/optical datacenter networks (Hybrid-DCN) that leverages optical circuit switching (OCS) along with traditional electrical packet switching (EPS). However, due to the high reconfiguration delay of OCS, OCS is used only for bulk data transfers between racks to amortize the reconfiguration delay. Existing job schedulers for data-parallel frameworks are not designed for Hybrid-DCN, since they neither place tasks to aggregate data traffic to take advantage of OCS, nor schedule tasks to minimize the Coflow completion time (CCT). In this paper, we describe the mismatch between existing job schedulers and the advanced Hybrid-DCN, introduce the requirements for the new scheduler, and present the implementation of Co-scheduler , a job scheduler for data-parallel frameworks that aims to improve job performance by placing the tasks of jobs to aggregate enough data traffic to better leverage OCS to minimize the CCT in Hybrid-DCN. Specifically, for every job, Co-scheduler computes guidelines on how many racks to place the job’s input data and the job’s tasks. The guidelines are dynamically generated based on the real-time job characteristics or predictable job characteristics from prior runs, with the aim of leveraging OCS whenever possible and efficient and minimizing CCT of jobs. Co-scheduler then schedules the tasks of jobs based on the guidelines. We evaluate the effectiveness of Co-scheduler using trace-driven simulation. The evaluation demonstrates that Co-scheduler can improve makespan, average job completion time, and average CCT of a workload by up to 56%, 61%, and 79%, respectively, compared to the state-of-the-art schedulers.}
+}
+
+@ARTICLE{li2022funcx,
+  author={Li, Zhuozhao and Chard, Ryan and Babuji, Yadu and Galewsky, Ben and Skluzacek, Tyler J. and Nagaitsev, Kirill and Woodard, Anna and Blaiszik, Ben and Bryan, Josh and Katz, Daniel S. and Foster, Ian and Chard, Kyle},
+  journal={IEEE Transactions on Parallel and Distributed Systems}, 
+  title={funcX: Federated Function as a Service for Science}, 
+  abstract={funcX is a distributed function as a service (FaaS) platform that enables flexible, scalable, and high performance remote function execution. Unlike centralized FaaS systems, funcX decouples the cloud-hosted management functionality from the edge-hosted execution functionality. funcX's endpoint software can be deployed, by users or administrators, on arbitrary laptops, clouds, clusters, and supercomputers, in effect turning them into function serving systems. funcX's cloud-hosted service provides a single location for registering, sharing, and managing both functions and endpoints. It allows for transparent, secure, and reliable function execution across the federated ecosystem of endpoints—enabling users to route functions to endpoints based on specific needs. funcX uses containers (e.g., Docker, Singularity, and Shifter) to provide common execution environments across endpoints. funcX implements various container management strategies to execute functions with high performance and efficiency on diverse funcX endpoints. funcX also integrates with an in-memory data store and Globus for managing data that may span endpoints. We motivate the need for funcX, present our prototype design and implementation, and demonstrate, via experiments on two supercomputers, that funcX can scale to more than 130000 concurrent workers. We show that funcX's container warming-aware routing algorithm can reduce the completion time for 3,000 functions by up to 61% compared to a randomized algorithm and the in-memory data store can speed up data transfers by up to 3x compared to a shared file system.},
+  year={2022},
+  volume={33},
+  number={12},
+  pages={4948-4963},
+  doi={10.1109/TPDS.2022.3208767}
+  abbr = {TPDS},
+  bibtex_show = {true},
+  url = {https://ieeexplore.ieee.org/abstract/document/9899739},
+  pdf = {TPDS-li-funcx-2022.pdf},
+  selected = {true},
+}
+
 @INPROCEEDINGS{shen2014new,
   author={Shen, Haiying and Li, Zhuozhao},
   booktitle={IEEE INFOCOM 2014 - IEEE Conference on Computer Communications}, 
@@ -758,16 +809,21 @@ selected = {true},
 bibtex_show = {true},
 }
 
-@article{saadi2020impeccable,
+@inproceedings{saadi2020impeccable,
   title={Impeccable: Integrated modeling pipeline for covid cure by assessing better leads},
   author={Aymen Al Saadi and Dario Alfe and Yadu Babuji and Agastya Bhati and Ben Blaiszik and Thomas Brettin and Kyle Chard and Ryan Chard and Peter Coveney and Anda Trifan and Alex Brace and Austin Clyde and Ian Foster and Tom Gibbs and Shantenu Jha and Kristopher Keipert and Thorsten Kurth and Dieter Kranzlmüller and Hyungro Lee and Zhuozhao Li and Heng Ma and Andre Merzky and Gerald Mathias and Alexander Partin and Junqi Yin and Arvind Ramanathan and Ashka Shah and Abraham Stern and Rick Stevens and Li Tan and Mikhail Titov and Aristeidis Tsaris and Matteo Turilli and Huub Van Dam and Shunzhou Wan and David Wifling},
-  journal={arXiv preprint arXiv:2010.06574},
-  abbr = {arXiv},
+  booktitle = {Proceedings of the 50th International Conference on Parallel Processing},
+  articleno = {40},
+  numpages = {12},
+  location = {Lemont, IL, USA},
+  series = {ICPP '21}
+  url={https://doi.org/10.1145/3472456.3473524},
+  year={2021},
+  abstract = {The drug discovery process currently employed in the pharmaceutical industry typically requires about 10 years and $2-3 billion to deliver one new drug. This is both too expensive and too slow, especially in emergencies like the COVID-19 pandemic. In silicomethodologies need to be improved to better select lead compounds that can proceed to later stages of the drug discovery protocol accelerating the entire process. No single methodological approach can achieve the necessary accuracy with required efficiency. Here we describe multiple algorithmic innovations to overcome this fundamental limitation, development and deployment of computational infrastructure at scale integrates multiple artificial intelligence and simulation-based approaches. Three measures of performance are:(i) throughput, the number of ligands per unit time; (ii) scientific performance, the number of effective ligands sampled per unit time and (iii) peak performance, in flop/s. The capabilities outlined here have been used in production for several months as the workhorse of the computational infrastructure to support the capabilities of the US-DOE National Virtual Biotechnology Laboratory in combination with resources from the EU Centre of Excellence in Computational Biomedicine.},
+  abbr = {ICPP},
+  pdf = {ICPP-saadi-impeccable-2021.pdf},
+  selected = {false},
   bibtex_show = {true},
-  url={https://arxiv.org/abs/2010.06574},
-  year={2020},
-  status = {arXiv},
-  abstract = {The drug discovery process currently employed in the pharmaceutical industry typically requires about 10 years and $2-3 billion to deliver one new drug. This is both too expensive and too slow, especially in emergencies like the COVID-19 pandemic. In silicomethodologies need to be improved to better select lead compounds that can proceed to later stages of the drug discovery protocol accelerating the entire process. No single methodological approach can achieve the necessary accuracy with required efficiency. Here we describe multiple algorithmic innovations to overcome this fundamental limitation, development and deployment of computational infrastructure at scale integrates multiple artificial intelligence and simulation-based approaches. Three measures of performance are:(i) throughput, the number of ligands per unit time; (ii) scientific performance, the number of effective ligands sampled per unit time and (iii) peak performance, in flop/s. The capabilities outlined here have been used in production for several months as the workhorse of the computational infrastructure to support the capabilities of the US-DOE National Virtual Biotechnology Laboratory in combination with resources from the EU Centre of Excellence in Computational Biomedicine.}
 }
 
 @inproceedings{woodard2020real,
@@ -806,19 +862,21 @@ bibtex_show = {true},
 }
 
 @article{clyde2021high,
-    author = {Clyde, Austin and Galanie, Stephanie and Kneller, Daniel W. and Ma, Heng and Babuji, Yadu and Blaiszik, Ben and Brace, Alexander and Brettin, Thomas and Chard, Kyle and Chard, Ryan and Coates, Leighton and Foster, Ian and Hauner, Darin and Kertesz, Vilmos and Kumar, Neeraj and Lee, Hyungro and Li, Zhuozhao and Merzky, Andre and Schmidt, Jurgen G. and Tan, Li and Titov, Mikhail and Trifan, Anda and Turilli, Matteo and Van Dam, Hubertus and Chennubhotla, Srinivas C. and Jha, Shantenu and Kovalevsky, Andrey and Ramanathan, Arvind and Head, Martha S. and Stevens, Rick},
-    title = {High Throughput Virtual Screening and Validation of a SARS-CoV-2 Main Protease Non-Covalent Inhibitor},
-    elocation-id = {2021.03.27.437323},
-    year = {2021},
-    doi = {10.1101/2021.03.27.437323},
-    publisher = {Cold Spring Harbor Laboratory},
-    abstract = {Despite the recent availability of vaccines against the acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the search for inhibitory therapeutic agents has assumed importance especially in the context of emerging new viral variants. In this paper, we describe the discovery of a novel non-covalent small-molecule inhibitor, MCULE-5948770040, that binds to and inhibits the SARS-Cov-2 main protease (Mpro) by employing a scalable high throughput virtual screening (HTVS) framework and a targeted compound library of over 6.5 million molecules that could be readily ordered and purchased. Our HTVS framework leverages the U.S. supercomputing infrastructure achieving nearly 91\% resource utilization and nearly 126 million docking calculations per hour. Downstream biochemical assays validate this Mpro inhibitor with an inhibition constant (Ki) of 2.9 {\textmu}M [95\% CI 2.2, 4.0]. Further, using room-temperature X-ray crystallography, we show that MCULE-5948770040 binds to a cleft in the primary binding site of Mpro forming stable hydrogen bond and hydrophobic interactions. We then used multiple {\textmu}s-timescale molecular dynamics (MD) simulations, and machine learning (ML) techniques to elucidate how the bound ligand alters the conformational states accessed by Mpro, involving motions both proximal and distal to the binding site. Together, our results demonstrate how MCULE-5948770040 inhibits Mpro and offers a springboard for further therapeutic design.Significance StatementSignificance Statement The ongoing novel coronavirus pandemic (COVID-19) has prompted a global race towards finding effective therapeutics that can target the various viral proteins. Despite many virtual screening campaigns in development, the discovery of validated inhibitors for SARS-CoV-2 protein targets has been limited. We discover a novel inhibitor against the SARS-CoV-2 main protease. Our integrated platform applies downstream biochemical assays, X-ray crystallography, and atomistic simulations to obtain a comprehensive characterization of its inhibitory mechanism. Inhibiting Mpro can lead to significant biomedical advances in targeting SARS-CoV-2 treatment, as it plays a crucial role in viral replication.Competing Interest StatementThe authors have declared no competing interest.},
-    URL = {https://www.biorxiv.org/content/early/2021/04/02/2021.03.27.437323},
-    eprint = {https://www.biorxiv.org/content/early/2021/04/02/2021.03.27.437323.full.pdf},
-    journal = {bioRxiv},
-    status = {arXiv},
-    abbr = {bioRxiv},
-    bibtex_show = {true},
+  author = {Clyde, Austin and Galanie, Stephanie and Kneller, Daniel W. and Ma, Heng and Babuji, Yadu and Blaiszik, Ben and Brace, Alexander and Brettin, Thomas and Chard, Kyle and Chard, Ryan and Coates, Leighton and Foster, Ian and Hauner, Darin and Kertesz, Vilmos and Kumar, Neeraj and Lee, Hyungro and Li, Zhuozhao and Merzky, Andre and Schmidt, Jurgen G. and Tan, Li and Titov, Mikhail and Trifan, Anda and Turilli, Matteo and Van Dam, Hubertus and Chennubhotla, Srinivas C. and Jha, Shantenu and Kovalevsky, Andrey and Ramanathan, Arvind and Head, Martha S. and Stevens, Rick},
+  title = {High Throughput Virtual Screening and Validation of a SARS-CoV-2 Main Protease Non-Covalent Inhibitor},
+  journal = {Journal of Chemical Information and Modeling},
+  volume = {62},
+  number = {1},
+  pages = {116-128},
+  year = {2022},
+  doi = {10.1021/acs.jcim.1c00851},
+  note ={PMID: 34793155},
+  URL = {https://doi.org/10.1021/acs.jcim.1c00851},
+  abstract = {Despite the recent availability of vaccines against the acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the search for inhibitory therapeutic agents has assumed importance especially in the context of emerging new viral variants. In this paper, we describe the discovery of a novel non-covalent small-molecule inhibitor, MCULE-5948770040, that binds to and inhibits the SARS-Cov-2 main protease (Mpro) by employing a scalable high throughput virtual screening (HTVS) framework and a targeted compound library of over 6.5 million molecules that could be readily ordered and purchased. Our HTVS framework leverages the U.S. supercomputing infrastructure achieving nearly 91\% resource utilization and nearly 126 million docking calculations per hour. Downstream biochemical assays validate this Mpro inhibitor with an inhibition constant (Ki) of 2.9 {\textmu}M [95\% CI 2.2, 4.0]. Further, using room-temperature X-ray crystallography, we show that MCULE-5948770040 binds to a cleft in the primary binding site of Mpro forming stable hydrogen bond and hydrophobic interactions. We then used multiple {\textmu}s-timescale molecular dynamics (MD) simulations, and machine learning (ML) techniques to elucidate how the bound ligand alters the conformational states accessed by Mpro, involving motions both proximal and distal to the binding site. Together, our results demonstrate how MCULE-5948770040 inhibits Mpro and offers a springboard for further therapeutic design.Significance StatementSignificance Statement The ongoing novel coronavirus pandemic (COVID-19) has prompted a global race towards finding effective therapeutics that can target the various viral proteins. Despite many virtual screening campaigns in development, the discovery of validated inhibitors for SARS-CoV-2 protein targets has been limited. We discover a novel inhibitor against the SARS-CoV-2 main protease. Our integrated platform applies downstream biochemical assays, X-ray crystallography, and atomistic simulations to obtain a comprehensive characterization of its inhibitory mechanism. Inhibiting Mpro can lead to significant biomedical advances in targeting SARS-CoV-2 treatment, as it plays a crucial role in viral replication.Competing Interest StatementThe authors have declared no competing interest.},
+  abbr = {JCIM},
+  bibtex_show = {true},
+  selected = {true},
+  pdf = {JCIM-clyde-screening-2022.pdf},
 }
 
 
