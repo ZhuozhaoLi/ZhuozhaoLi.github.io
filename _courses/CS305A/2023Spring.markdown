@@ -47,7 +47,7 @@ There will be three Q&A homework, two programming assignments, one project, one 
 ##### **Academic Integrity/Academic Dishonesty**
 
 I expect students to be honest and not cheat on their assignments, project, or exams. 
-Please refer to the [plagiarism policy](/assets/Plagiarism_Policy.pdf) (**IMPORTANT!!! Please READ carefully!!!**) of CSE department for more details.
+Please refer to the [plagiarism policy](/assets/Plagiarism_Policy_2023.pdf) (**IMPORTANT!!! Please READ carefully!!!**) of CSE department for more details.
 You MUST sign the commitment letter and submit on the Sakai/Blackboard system.
 
 ##### **Course Policies**
