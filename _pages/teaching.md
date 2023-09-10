@@ -11,5 +11,8 @@ Courses at SUSTech
 - CS109 Introduction to Computer Programming
 	- 2021 Fall, [2022 Fall](/courses/CS109/2022Fall)
 
+- CS110 Introduction to Java Programming
+	- [2023 Fall](/courses/CS110/2023Fall)
+
 - CS305A Computer Networks
 	- [2022 Spring](/courses/CS305A/2022Spring), [2023 Spring](/courses/CS305A/2023Spring)

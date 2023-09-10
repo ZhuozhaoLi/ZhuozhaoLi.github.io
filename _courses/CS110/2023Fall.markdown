@@ -1,0 +1,118 @@
+---
+layout: page
+title: CS110 Introduction to Java Programming
+description: "2023 Fall Syllabus"
+---
+
+
+##### **Instructors**
+
+[Zhuozhao Li](https://zhuozhaoli.github.io/), 李卓钊
+- Office: RM 516, South Tower, CoE Building (工学院南楼516)
+- Office hour: Friday 10:00-11:00AM, or [email](mailto:lizz@sustech.edu.cn) to schedule an appointment.
+
+Qimei Liao (Lab)
+
+
+##### **Course Descriptions**
+
+The course is designed for freshmen who nearly have no programming experience, and aims to cultivate them on basic concepts and techniques of programming. Students will learn Java programming language, understand basic elements of programming and fundamental program structures, and use Java to solve simple programming problems.
+
+On completion of this course, the students should be able to: 
+
+- Understand the basic components in a software system and the working mechanism of the Internet and the Web. 
+- Know the basic syntax of the Java programming language. 
+- Understand the features of object-oriented programming: abstraction, encapsulation, inheritance, polymorphism. 
+- Develop programs to solve real problems using integrated development environments.
+
+
+##### **Course Materials**
+
+- All the lecture and lab slides.
+
+- Textbook (optional): David J. Eck, Introduction to Programming Using Java, Eighth Edition.
+<img style="float: right;" src="/assets/img/javaB.png" alt="drawing" width="150"/>
+
+- Other references (optional): 
+  - P. Deitel, H. Deitel, Java: How to Program (11th edition), Prentice-Hall, 2017.
+  - Y. Daniel Liang. Introduction to Java Programming, 10e, Pearson, Prentice Hall, 2015.
+  - Allen B. Downey and Chris Mayfield. Think Java, How to Think Like a Computer Scientist, O'Reilly, 2016.
+
+
+##### **Course Workloads**
+
+There will be several programming assignments, a project, and a final examination. 
+
+
+##### **Grading Policy**
+
+<!--- The grading policy may subject to minor changes depending on the overall performance.-->
+
+- Programming assignments, 30%
+
+- Attendance and exercises, 10%
+
+- Project, 20%
+
+- Final exam, 40%
+
+
+##### **<span style="color:red;">Academic Integrity/Academic Dishonesty</span>**
+
+I expect students to be honest and not cheat on their assignments, project, or exams. 
+Please refer to the [plagiarism policy](/assets/Plagiarism_Policy.pdf) (**IMPORTANT!!! Please READ carefully!!!**) of CSE department for more details.
+You MUST sign the commitment letter and submit on the Sakai/Blackboard system.
+
+
+##### **Course Policies**
+
+- No late assignment will be accepted.
+- Unless some special situations (e.g., medical leave) which will be reviewed by all the instructors.
+- The following excuses will NOT be approved for late submissions: computer crashes, disk crashes, accidental file deletions, lab computer unavailability, and the like. There will be no reply for this sort of late assignment submission requests.
+
+##### **[Schedule](#schedule) (Tentative)** {#schedule}
+
+<style>
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 5pt;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a6a6a6;
+  color: white;
+}
+</style>
+
+Please refer to Sakai for the lecture and lab materials.
+
+Acronyms: PA = Programming Assignment, PROJ = Project
+
+
+
+| **Week** | **Date**      | **Contents**                                                                                | **Events**                     |
+|:--------:|:-------------:|---------------------------------------------------------------------------------------------|:------------------------------:|
+| 1        | Sep. 12, 2023 | [Lecture] Course overview, Introduction to Computers<br>[Lab] Programming Environment Setup |                                |
+| 2        | Sep. 19, 2023 | [Lecture] Basic Programming Concepts<br>[Lab] IDE and Basic Exercises                       |                                |
+| 3        | Sep. 26, 2023 | [Lecture] Basic I/O and Control Statements<br>[Lab] Control Statements                      |                                |
+| 4        | Oct. 10, 2023 | [Lecture] Arrays and Methods<br>[Lab] Array Exercises                                       | PA1 out                        |
+| 5        | Oct. 17, 2023 | [Lecture] Methods and More Control Statements<br>[Lab] Static Methods                       |                                |
+| 6        | Oct. 24, 2023 | [Lecture] Multi-dimensional Arrays<br>[Lab] Multi-dimensional Arrays                        | PA1 due<br>PA2 out             |
+| 7        | Oct. 31, 2023 | [Lecture] More I/O and Problem Solving<br>[Lab] I/O, StdDraw                                |                                |
+| 8        | Nov. 7, 2023  | [Lecture] Introduction to Classes and Objects<br>[Lab] String                               | PA2 out                        |
+| 9        | Nov. 14, 2023 | [Lecture] Class Design<br>[Lab] Classes                                                     | PROJ out                       |
+| 10       | Nov. 21, 2023 | [Lecture] Collections<br>[Lab] Collections                                                  | PA2 due<br>PA3 out             |
+| 11       | Nov. 28, 2023 | [Lecture] Classes, Objects, and Methods: A Deeper Look <br>[Lab] Classes and Objects 2      |                                |
+| 12       | Dec. 5, 2023  | [Lecture] Inheritance and Interface <br>[Lab] Inheritance and Interface                     | PA3 due<br>PA4 out             |
+| 13       | Dec. 12, 2023 | [Lecture] Collection Sorting, Set and Map<br>[Lab] Collection                               |                                |
+| 14       | Dec. 19, 2023 | [Lecture] Enum Types, Exception Handling, and More Classes & Objects<br>[Lab] Enumeration   | PA4 due                        |
+| 15       | Dec. 26, 2023 | [Lecture] Rounding Errors <br>[Lab] Sort and Map                                            | PROJ due 1                     |
+| 16       | Jan. X, 2024  | [Lecture] Review and project Demo <br>[Lab] Project presentation                            | PROJ due 2                     |
