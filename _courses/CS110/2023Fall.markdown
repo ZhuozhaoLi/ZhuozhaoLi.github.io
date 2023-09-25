@@ -109,7 +109,7 @@ Acronyms: PA = Programming Assignment, PROJ = Project
 | 7        | Oct. 31, 2023 | [Lecture] More I/O and Problem Solving<br>[Lab] I/O, StdDraw                                | PA2 out                        |
 | 8        | Nov. 7, 2023  | [Lecture] Introduction to Classes and Objects<br>[Lab] String                               |                                |
 | 9        | Nov. 14, 2023 | [Lecture] Class Design<br>[Lab] Classes                                                     | PA2 due<br>PROJ out            |
-| 10       | Nov. 21, 2023 | [Lecture] Collections<br>[Lab] Collections                                                  | PA3 out                        |
+| 10       | Nov. 21, 2023 | [Lecture] Collections<br>[Lab] ArrayList and StringBuilder                                  | PA3 out                        |
 | 11       | Nov. 28, 2023 | [Lecture] Classes, Objects, and Methods: A Deeper Look <br>[Lab] Classes and Objects 2      |                                |
 | 12       | Dec. 5, 2023  | [Lecture] Inheritance and Interface <br>[Lab] Inheritance and Interface                     | PA3 due<br>PA4 out             |
 | 13       | Dec. 12, 2023 | [Lecture] Collection Sorting, Set and Map<br>[Lab] Collection                               |                                |
