@@ -15,4 +15,4 @@ Courses at SUSTech
 	- [2023 Fall](/courses/CS110/2023Fall)
 
 - CS305A Computer Networks
-	- [2022 Spring](/courses/CS305A/2022Spring), [2023 Spring](/courses/CS305A/2023Spring)
+	- [2022 Spring](/courses/CS305A/2022Spring), [2023 Spring](/courses/CS305A/2023Spring), [2024 Spring](/courses/CS305A/2024Spring)
