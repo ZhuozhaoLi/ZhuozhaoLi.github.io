@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Zhuozhao  Li | blank</title>
+<title>Zhuozhao  Li | Parsl</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -30,7 +30,7 @@
 <link rel="icon" href="/assets/img/sustech-icon.png" type="image/x-icon">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/Parsl/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -104,8 +104,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -193,56 +191,43 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Parsl</h1>
+    <p class="post-description">A parallel programming library for Python, which provides a model by which complex workflows can be represented in an intuitive Python-based control application.</p>
+  </header>
 
+  <article>
+    <p>Parsl is a Python-based parallel programming library that supports development and execution of asynchronous and parallel data-oriented workflows (dataflows). These workflows glue together existing executables (called Apps) and Python functions with control logic written in Python. Parsl brings implicit parallel execution to standard Python scripts. Rather than explicitly defining a graph and/or modifying data structures, instead developers simply annotate Python functions and Apps. Parsl constructs a dynamic, parallel execution graph derived from the implicit linkage between Apps based on shared input/output data objects. Parsl then executes these components when dependencies are met. Parsl is resource-independent, that is, the same Parsl script can be executed on your laptop through to clusters, clouds, and supercomputers. Parsl also supports different executors including local threads, pilot jobs, and extreme-scale execution with Swift/T.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
+<p>Parsl can be used to realize a variety of workflows:</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<ul>
+  <li>Parallel task-based workflows in which tasks are executed when their dependencies are met.</li>
+  <li>Interactive and dynamic workflows in which the workflow is dynamically expanded during execution by users or the workflow itself.</li>
+  <li>Procedural workflows in which serial execution of tasks are managed by Parsl.</li>
+  <li>Workflows with many short duration tasks where no task-level fault tolerance is required</li>
+  <li>Workflows with long running tasks with fault tolerance</li>
+</ul>
 
+<p>Try it out at:
+<a href="https://parsl-project.org">https://parsl-project.org</a></p>
 
+<p>Further reading</p>
+<ul>
+  <li>Yadu Babuji, Anna Woodard, Zhuozhao Li, Daniel S. Katz, Ben Clifford, Rohan Kumar, Luksaz Lacinski, Ryan Chard, Justin M. Wozniak, Ian Foster, Michael Wilde and Kyle Chard. <a href="/assets/pdf/HPDC-babuji-parsl-2019.pdf">Parsl: Pervasive Parallel Programming in Python</a>. 28th ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC). 2019. 10.1145/3307681.3325400</li>
+  <li>Babuji, Yadu, Woodard, Anna, Li, Zhuozhao, Katz, Daniel S., Clifford, Ben, Foster, Ian, Wilde, Michael and Chard, Kyle. “Scalable Parallel Programming in Python with Parsl.” Proceedings of the Practice and Experience in Advanced Research Computing on Rise of the Machines (Learning). pp 22:1–22:8. 2019.</li>
+  <li>Yadu Babuji, Kyle Chard, Ian Foster, Daniel S. Katz, Michael Wilde, Anna Woodard and Justin Wozniak. “Parsl: Scalable Parallel Scripting in Python.” 10th International Workshop on Science Gateways (IWSG). 2018.</li>
+  <li>Babuji, Y., Brizius, A., Chard, K., Foster, I., Katz, D.S., Wilde, M., &amp; Wozniak, J.. (2017, August 30). 
+<a href="http://doi.org/10.5281/zenodo.853491">Introducing Parsl: A Python Parallel Scripting Library</a>. Zenodo. http://doi.org/10.5281/zenodo.853491.</li>
+</ul>
+
+<p>Funding</p>
+
+<ul>
+  <li>NSF 1550588</li>
+</ul>
+
+  </article>
 
 </div>
 

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Zhuozhao  Li | blank</title>
+<title>Zhuozhao  Li | funcX</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -30,7 +30,7 @@
 <link rel="icon" href="/assets/img/sustech-icon.png" type="image/x-icon">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/funcX/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -104,8 +104,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -193,56 +191,39 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">funcX</h1>
+    <p class="post-description">funcX is a Function as a Service (FaaS) platform for science. It is designed to be applied to existing cyberinfrastructures to provide scalable, secure, and on-demand execution of scientific functions.</p>
+  </header>
 
+  <article>
+    <p>Increasing data volumes and velocities are driving exciting new methods across the sciences in which data analytics and 
+machine learning are increasingly intertwined with research. These new methods require new approaches for scientific 
+computing in which computation is mobile, so that, for example, it can occur near data, be triggered by events (e.g., arrival of 
+new data), or be offloaded to specialized accelerators. It also requires new design approaches in which monolithic applications 
+can be decomposed into smaller components that may in turn be executed separately and on the most efficient resources. 
+To address these needs we propose funcX—a high-performance Function as a Service (FaaS) platform that enables intuitive, flexible, 
+efficient, scalable, and performant remote function execution on existing infrastructure including clouds, clusters, and supercomputers.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
+<p>funcX allows users to register and then execute Python functions without regard for the physical resource location, scheduler architecture, or virtualization technology on which the function is executed—an approach we refer to as “serverless supercomputing.”
+We have developed a prototype implementation of funcX and applied it to a range of scientific problems. We have also deployed it on two supercomputers, finding funcX to be capable of processing millions of functions and scaling to more than 65000 concurrent workers.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>Try it out at:
+<a href="https://funcx.org">https://funcx.org</a></p>
 
+<p>Further reading</p>
+<ul>
+  <li>Chard, Ryan, Babuji, Yadu, Li, Zhuozhao, Skluzacek, Tyler, Woodard, Anna, Blaiszik, Ben, Foster, Ian and Chard, Kyle. <a href="/assets/pdf/HPDC-chard-funcx-2020.pdf">FuncX: A Federated Function Serving Fabric for Science</a>. Proceedings of the 29th International Symposium on High-Performance Parallel and Distributed Computing. pp 65–76. 2020.K.</li>
+  <li>Ryan Chard, Tyler J. Skluzacek, Zhuozhao Li, Yadu Babuji, Anna Woodard, Ben Blaiszik, Steven Tuecke, Ian Foster and Kyle Chard. <a href="https://arxiv.org/abs/1908.04907">Serverless Supercomputing: High Performance Function as a Service for Science</a>. 2019.</li>
+  <li>Skluzacek, Tyler J., Chard, Ryan, Wong, Ryan, Li, Zhuozhao, Babuji, Yadu N., Ward, Logan, Blaiszik, Ben, Chard, Kyle and Foster, Ian. <a href="/assets/pdf/WOSC-skluzacek-xtract-2019.pdf">Serverless Workflows for Indexing Large Scientific Data</a>. Proceedings of the 5th International Workshop on Serverless Computing. pp 43–48. 2019.</li>
+  <li>Anna Elizabeth Woodard, Ana Trisovic, Zhuozhao Li, Yadu Babuji, Ryan Chard, Tyler Skluzacek, Ben Blaiszik, Daniel S. Katz, Ian Foster and Kyle Chard. <a href="/assets/pdf/CHEP-woodard-funcx-2020.pdf">Real-time HEP analysis with funcX, a high-performance platform for function as a service</a>. EPJ Web of Conferences. 245. pp 07046. 2020.</li>
+</ul>
 
+<p>Funding</p>
+
+<p>funcX is supported by NSF 2004894/2004932 and an Argonne Lab Directed Research and Development award.</p>
+
+  </article>
 
 </div>
 
