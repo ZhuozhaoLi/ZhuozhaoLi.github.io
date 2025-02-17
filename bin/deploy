@@ -92,7 +92,7 @@ fi
 git checkout -b $DEPLOY_BRANCH
 
 # Build site
-gem update --system --no-document
+gem update --system
 bundle update --bundler
 bundle exec jekyll build
 
